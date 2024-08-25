@@ -1,0 +1,21 @@
+public class Variaveis_Wrapper {
+        public static void main(String[] args) {
+            Integer inteiro = 42;              
+            Double decimal = 3.14;            
+            Float pontoFlutuante = 2.71f;      
+            Long longo = 123456789L;           
+            Short curto = 1000;                
+            Byte byteWrapper = 127;           
+            Boolean verdadeiroOuFalso = true;  
+            Character caractere = 'A';         
+            
+            System.out.println("Integer: " + inteiro);
+            System.out.println("Double: " + decimal);
+            System.out.println("Float: " + pontoFlutuante);
+            System.out.println("Long: " + longo);
+            System.out.println("Short: " + curto);
+            System.out.println("Byte: " + byteWrapper);
+            System.out.println("Boolean: " + verdadeiroOuFalso);
+            System.out.println("Character: " + caractere);
+        }
+    }
